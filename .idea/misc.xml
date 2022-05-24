@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/border_image.xml" value="0.1785" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.1635" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1785" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/image_button_rounded.xml" value="0.1785" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/input_bg.xml" value="0.1785" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/drawable/side_nav_bar.xml" value="0.1635" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_chi_tiet_hoa_don.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_chon_mon_an.xml" value="0.2364179037174423" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_login.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_main.xml" value="0.2364179037174423" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_quan_ly_ban_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_quan_ly_mon_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_quan_ly_nhan_vien.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/activity_quan_tri.xml" value="0.17910447251321387" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/content_main.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/dialog.xml" value="0.2364179037174423" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_ban_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_ban_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_chitiethoadon.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_chitiethoadon_list.xml" value="0.1" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_chuanbimonan.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_chuanbimonan_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_loai_mon_an.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_loai_mon_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_monan.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_monan_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlban_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlban_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlmon_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlmon_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlnhan_vien.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_qlnhan_vien_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_ban_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_ban_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_mon_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_mon_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_nhan_vien.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_quan_ly_nhan_vien_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_them_mon_an_list.xml" value="0.1984375" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_them_xoa_sua_ban_an.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/fragment_thong_tin_nhan_vien.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/layout/nav_header_main.xml" value="0.2364179037174423" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/menu/activity_main_drawer.xml" value="0.2125" />
+        <entry key="..\:/LTDiDong/DOANLTDD/UngDungGoiMonAn/app/src/main/res/menu/main.xml" value="0.2125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="hufi.edu.vn.ungdunggoimonan.ui.LoaiMonAnFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".ui.LoaiMonAnFragment"
+    tools:listitem="@layout/fragment_loai_mon_an"
+    android:background="@drawable/border"/>

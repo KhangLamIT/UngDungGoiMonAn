@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_BanAn"
+            android:icon="@drawable/ic_baseline_local_dining_24"
+            android:title="Gọi Món Ăn"
+            />
+        <item
+            android:id="@+id/nav_ThongTinNV"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Thông Tin Bản Thân"
+            />
+        <item
+            android:id="@+id/nav_QLBanAn"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="Quản Lý Bàn Ăn"
+            />
+        <item
+            android:id="@+id/nav_QLMonAn"
+            android:icon="@drawable/ic_baseline_fastfood_24"
+            android:title="Quản Lý Món Ăn"
+            />
+        <item
+            android:id="@+id/nav_QLNhanVien"
+            android:icon="@drawable/ic_baseline_person_search_24"
+            android:title="Quản Lý Nhân Viên"
+            />
+
+    </group>
+
+</menu>

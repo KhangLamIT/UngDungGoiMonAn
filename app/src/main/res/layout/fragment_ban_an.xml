@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imgBanAn"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/iconbanan" />
+
+    <TextView
+        android:id="@+id/lbTenBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgBanAn"
+        android:layout_alignTop="@+id/imgBanAn"
+        android:layout_alignRight="@+id/imgBanAn"
+        android:layout_alignBottom="@+id/imgBanAn"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Bàn 10"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+</RelativeLayout>

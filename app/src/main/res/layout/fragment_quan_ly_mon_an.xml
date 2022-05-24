@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanTri.QuanLyMonAnFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgQuanLyMonAn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_insert_photo_24"
+            android:background="@drawable/border_image"/>
+        <EditText
+            android:id="@+id/txtQLTenMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên Món Ăn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="9pt"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imgQuanLyMonAn"/>
+        <EditText
+            android:id="@+id/txtQLGiaMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá Món Ăn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="9pt"
+            android:inputType="number"
+            android:layout_below="@id/txtQLTenMonAn"
+            android:layout_toRightOf="@id/imgQuanLyMonAn"/>
+        <Spinner
+            android:id="@+id/spinnerLoaiMonAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtQLGiaMonAn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imgQuanLyMonAn"/>
+
+        <Button
+            android:id="@+id/btnChonHinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn Hình"
+            android:textSize="9pt"
+            android:layout_below="@id/spinnerLoaiMonAn"
+            android:backgroundTint="@color/Orange"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnQLMAXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:textSize="9pt"
+            android:layout_below="@id/btnChonHinh"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLMAThem"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnQLMAThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:textSize="9pt"
+            android:layout_below="@id/btnChonHinh"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLMALuu"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnQLMALuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textSize="9pt"
+            android:layout_below="@id/btnChonHinh"
+            android:backgroundTint="@color/Orange"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerQLMA"
+            android:name="hufi.edu.vn.ungdunggoimonan.QuanTri.QLMonAnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnQLMALuu"/>
+    </RelativeLayout>
+</FrameLayout>

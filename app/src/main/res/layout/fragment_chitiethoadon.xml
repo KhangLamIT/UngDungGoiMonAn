@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imgCardMonAn"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="60dp"
+        app:cardElevation="0dp">
+        <ImageView
+            android:id="@+id/imgChiTietMonAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/lbChiTiet_TenMonAn"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Tên Món Ăn Tên Món Ăn"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgCardMonAn"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/lbChiTiet_GiaMonAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100000.0"
+        android:textSize="10pt"
+        android:textColor="@color/red"
+        android:layout_toRightOf="@id/imgCardMonAn"
+        android:layout_below="@id/lbChiTiet_TenMonAn"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/idNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" x "
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/lbChiTiet_GiaMonAn"
+        android:layout_below="@id/lbChiTiet_TenMonAn"/>
+    <TextView
+        android:id="@+id/lbChiTiet_SoLuong"
+        android:layout_width="10pt"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="10pt"
+        android:layout_toRightOf="@id/idNhan"
+        android:textColor="@color/red"
+        android:layout_below="@id/lbChiTiet_TenMonAn"
+        android:layout_marginRight="10pt"/>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frgment_QLBanAn"
+    tools:context=".QuanTri.QuanLyBanAnFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/txtTenBan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập Tên Bàn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="9pt"/>
+        <Button
+            android:id="@+id/btnQLBAXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:textSize="9pt"
+            android:layout_below="@id/txtTenBan"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLBASua"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnQLBAThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:textSize="9pt"
+            android:layout_below="@id/txtTenBan"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLBAXoa"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnQLBASua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textSize="9pt"
+            android:layout_below="@id/txtTenBan"
+            android:backgroundTint="@color/Orange"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentQLBanAn"
+            android:name="hufi.edu.vn.ungdunggoimonan.QuanTri.QLBanAnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnQLBAThem"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gọi Món Ăn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_banan">Bàn Ăn</string>
+    <string name="menu_ThongTinNV">Thông Tin Bản Thân</string>
+    <string name="menu_QuanLyBanAn">Quản Lý Bàn Ăn</string>
+    <string name="menu_QuanLyMonAn">Quản Lý Món Ăn</string>
+    <string name="menu_QuanLNhanVien">Quản Lý Nhân Viên</string>
+</resources>

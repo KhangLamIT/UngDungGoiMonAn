@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChonMonAnActivity">
+
+    <TextView
+        android:id="@+id/lbChonMon_TenBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bàn 3"
+        android:textColor="@color/white"
+        android:background="@color/Orange"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentChonLoaiMonAn"
+        android:name="hufi.edu.vn.ungdunggoimonan.ui.LoaiMonAnFragment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/lbChonMon_TenBan"/>
+    <RelativeLayout
+        android:layout_below="@id/fragmentChonLoaiMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentChonMonAn"
+            android:name="hufi.edu.vn.ungdunggoimonan.ui.MonAnFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnXemHoaDon"
+            />
+        <TextView
+            android:id="@+id/lbSoLuong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:text="Số Lượng: 0"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            />
+        <Button
+            android:id="@+id/btnXemHoaDon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Xem Hóa Đơn"
+            android:layout_marginTop="5dp"
+            android:textSize="9pt"
+            android:backgroundTint="@color/Orange"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

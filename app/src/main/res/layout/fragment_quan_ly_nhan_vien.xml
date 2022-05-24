@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanTri.QuanLyNhanVienFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgQuanLyNV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_add_photo_alternate_24"
+            android:background="@drawable/border_image"/>
+        <Button
+            android:id="@+id/btnThemHinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn"
+            android:textSize="8pt"
+            android:layout_below="@id/imgQuanLyNV"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/txtQLNV_TenNV"
+            android:layout_marginRight="5dp"/>
+
+        <EditText
+            android:id="@+id/txtQLNV_TenNV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:hint="Tên Nhân Viên"
+            android:textSize="9pt"
+            android:layout_toRightOf="@+id/imgQuanLyNV"/>
+        <EditText
+            android:id="@+id/txtQLNV_SDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0123456789"
+            android:textSize="9pt"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@id/txtQLNV_TenNV"
+            android:layout_toRightOf="@+id/imgQuanLyNV"/>
+        <Spinner
+            android:id="@+id/spinnerChucVu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="9pt"
+            android:layout_below="@id/txtQLNV_SDT"
+            android:layout_toRightOf="@+id/imgQuanLyNV"/>
+        <Switch
+            android:id="@+id/switchTrangThaiHoatDong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:text="Trạng Thái"
+            android:layout_below="@id/spinnerChucVu"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnQLNVMatKhauMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RePassword"
+            android:textSize="8pt"
+            android:layout_below="@id/switchTrangThaiHoatDong"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLNVThem"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnQLNVThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:textSize="9pt"
+            android:layout_below="@id/switchTrangThaiHoatDong"
+            android:backgroundTint="@color/Orange"
+            android:layout_toLeftOf="@id/btnQLNVSua"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/btnQLNVSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:textSize="9pt"
+            android:layout_below="@id/switchTrangThaiHoatDong"
+            android:backgroundTint="@color/Orange"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerQLNV"
+            android:name="hufi.edu.vn.ungdunggoimonan.QuanTri.QLNhanVienFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnQLNVSua"/>
+    </RelativeLayout>
+
+
+</FrameLayout>

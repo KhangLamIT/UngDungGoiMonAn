@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="200dp">
+
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/chonSoLuongMon"
+        android:layout_centerVertical="true"
+        android:text="Hủy"
+        android:backgroundTint="@color/Orange"/>
+    <NumberPicker
+        android:id="@+id/chonSoLuongMon"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/chonSoLuongMon"
+        android:layout_centerVertical="true"
+        android:text="Chọn"
+        android:backgroundTint="@color/Orange"/>
+
+</RelativeLayout>

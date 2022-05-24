@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietHoaDonActivity">
+
+    <TextView
+        android:id="@+id/lbChiTiet_TenBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bàn 3"
+        android:textColor="@color/white"
+        android:background="@color/Orange"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/lbTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền: 30000000"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="@color/black"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/lbChiTiet_TenBan"/>
+    <RelativeLayout
+        android:layout_below="@id/lbTongTien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btnXacNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Orange"
+            android:text="Xác Nhận"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5pt"
+            android:textSize="9pt"
+            android:layout_alignParentBottom="true"/>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/chiTietCacMonAnDaDat"
+            android:name="hufi.edu.vn.ungdunggoimonan.ui.ChiTietHoaDonFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btnXacNhan"/>
+    </RelativeLayout>
+
+</RelativeLayout>
